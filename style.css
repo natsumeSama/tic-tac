@@ -20,14 +20,15 @@ button{
 }
 
 button.X{
-    color: rgb(255, 0, 0);
+    color: black;
     pointer-events: none;
-    opacity: 0.5;
+    background-color: red;
     
 }
 button.O{
-    color: green;
+    color: black;
     pointer-events: none;
+    background-color: green;
     
 }
 .diva{
