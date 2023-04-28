@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+table{
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    border-collapse:collapse ;
+    
+
+}
+button{
+    font-size:x-small ;
+    height: 100%;
+    width: 100%;
+    color: rgba(0, 0, 0, 0);
+}
+
+button.X{
+    color: rgb(255, 0, 0);
+    pointer-events: none;
+    opacity: 0.5;
+    
+}
+button.O{
+    color: green;
+    pointer-events: none;
+    
+}
+.diva{
+    display: block;
+    text-align: center;
+}
+.reset{
+    height: 50px;
+    width: 100px;
+    background-color: grey;
+    color:black;
+    font-size: large;
+    
+}
+.desactiver{
+    pointer-events: none;
+}
+
